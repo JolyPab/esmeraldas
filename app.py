@@ -161,7 +161,7 @@ if query:
     result = qa({"question": query})
 
     with content_container:
-        st.subheader("La respuesta del IA.:")
+        st.subheader("Respuesta del IA.:")
         st.write(result["answer"])
 
         # Скрытая история диалога
